@@ -20,4 +20,23 @@ z=a/b
 
 print(v,w,x,y,z)
 
+name1,name2="ahmad","zaki"
+print(name1,name2)
 
+
+def myfunc():
+    global name
+    name="ahmad zaki"
+    print(name)
+    
+myfunc()
+
+def kecepatan():
+    jarak=float(input("masukan jarak :"))
+    
+    waktu=float(input("masukan waktu :"))
+    
+    kecepatan=jarak/waktu
+    print(kecepatan)
+
+kecepatan()
